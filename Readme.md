@@ -1,4 +1,4 @@
 ## Technologies used
 - XAMPP
 - MySQL
-- ApacheW Web Server
+- Apache Web Server
