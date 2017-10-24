@@ -7,7 +7,11 @@
     <title>Welcome to Music Player</title>
 </head>
 <body>
-    <div>
+    <div id="inputContainer">
+        <form id="loginForm" action="register.php" method="POST">
+            <h2>Login to your account</h2>
+            <input id="loginUsername" name="loginUsername" type="text">
+        </form
     
     </div>
 </body>
