@@ -1,9 +1,19 @@
 <?php
 
-if(isset($_POST['loginButton'])) {
+if(isset($_POST['loginButton'])){
+    //Login button was pressed
+
 
 }
 
+if(isset($_POST['registerButton'])){
+    //Login button was pressed
+    echo "Register button was pressed";
+    
+}
+
+
+    
 ?>
 
 
@@ -29,7 +39,7 @@ if(isset($_POST['loginButton'])) {
             </p>
 
             <button type="submit" name="loginButton">LOG IN</button>
-        </form
+        </form>
 
 
 
