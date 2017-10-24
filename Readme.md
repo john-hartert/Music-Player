@@ -2,3 +2,5 @@
 - XAMPP
 - MySQL
 - Apache Web Server
+- PHP
+- HTML5

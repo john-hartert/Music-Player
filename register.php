@@ -2,7 +2,7 @@
 
 if(isset($_POST['loginButton'])){
     //Login button was pressed
-
+    echo "Register button was pressed";
 
 }
 
