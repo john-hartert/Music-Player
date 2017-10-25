@@ -7,6 +7,6 @@
 	<title>Welcome to Music Player</title>
 </head>
 <body>
-	kjldsakdfjal
+
 </body>
 </html>
