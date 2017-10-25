@@ -17,8 +17,11 @@
 
         private function validateUsername($un) {
             if(strlen($un) > 25 || strlen($un) < 5) {
-
+                array_push($this->errorArray, "Your username must be between 5 and 25 characters");
+                return;
             }
+
+            //TO DO: check if username exists
         }
             
         private function validateFirstname($fn) {
