@@ -59,7 +59,7 @@
                 array_push($this->errorArray, "Your emails don't match");
                 return;
             }
-            if(!filer_var($em, FILTER_VALIDATE_EMAIL)) {
+            if(!filter_var($em, FILTER_VALIDATE_EMAIL)) {
                 array_push($this->errorArray, "Email is invalid");
                 return;
             }
