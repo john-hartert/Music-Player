@@ -47,10 +47,25 @@
                 array_push($this->errorArray, "Email is invalid");
                 return;
             }
+
+            //To Do: Check that username hasn't already been used.
         }
             
         private function validatePasswords($pw, $pw2) {
-                
+            if($pw != $pw2) {
+                array_push($this->errorArray, "Your passwords don't match");
+                return;
+            }   
+            
+            if(preg_match('/[^A-Za-z0-9]/', $pw)) {
+                array_push($this->errorArray, "Your password can only contain numbers and letters.");
+                return;
+            }
+            if(strlen($un) > 30 || strlen($un) < 5) {
+                array_push($this->errorArray, "Your password must be between 5 and 30 characters.");
+                return;
+            }
+            
         }
 
     }
