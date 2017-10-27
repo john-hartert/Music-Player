@@ -23,7 +23,7 @@
                 return false;
             }
         }
-
+        //Function that is global.
         public function getError($error) {
             if(!in_array($error, $this->errorArray)) {
                 $error = "";
@@ -39,7 +39,7 @@
 
             //TO DO: check if username exists
         }
-            
+        // Function that isn't global.
         private function validateFirstname($fn) {
             if(strlen($fn) > 25 || strlen($fn) < 2) {
                 array_push($this->errorArray, "Your first name must be between 2 and 25 characters");
