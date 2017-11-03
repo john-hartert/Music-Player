@@ -62,7 +62,7 @@
                 <?php echo $account->getError(Constants::$emailsDoNotMatch); ?>
                 <?php echo $account->getError(Constants::$emailInvalid); ?>
                 <label for="email">Email</label>
-                <input id="email" name="email" type="email" placeholder="e.g. JohnSmith@gmail.com" required>
+                <input id="email" name="email" type="email" placeholder="e.g. JohnSmith@gmail.com" value="<?php getInputValue('email') ?>" required>
             </p>
 
             <p>
