@@ -38,6 +38,8 @@
             $date = date("Y-m-d");
 
             $result = mysqli_query($this->con, "INSERT INTO users VALUES ('', '$un', '$fn', '$ln', '$em', '$encryptedPw', '$date', '$profilePic')");
+        
+            return $result;
         }
 
         private function validateUsername($un) {
