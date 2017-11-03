@@ -77,7 +77,7 @@
 			}
 
 			if(preg_match('/[^A-Za-z0-9]/', $pw)) {
-				array_push($this->errorArray, "Your password can only contain numbers and letters");
+				array_push($this->errorArray, Constants::$passwordsNotAlphanumeric);
 				return;
 			}
 
