@@ -61,7 +61,7 @@
             }
 
 			if(!filter_var($em, FILTER_VALIDATE_EMAIL)) {
-				array_push($this->errorArray, "Email is invalid");
+				array_push($this->errorArray, Constants::$emailInvalid);
 				return;
 			}
 
