@@ -41,7 +41,7 @@
                 <input id="username" name="username" type="text" placeholder="e.g. John Smith" required>
             </p>
             <p>
-                <?php echo $account->getError($firstNameCharacters); ?>
+                <?php echo $account->getError(Constants::$firstNameCharacters); ?>
                 <label for="firstName">First name</label>
                 <input id="firstName" name="firstName" type="text" placeholder="e.g. John" required>
             </p>

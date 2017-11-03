@@ -49,7 +49,7 @@
             
         private function validateLastname($ln) {
             if(strlen($ln) > 25 || strlen($ln) < 2) {
-                array_push($this->errorArray, "Your last name must be between 2 and 25 characters");
+                array_push($this->errorArray, Constants::$lastNameCharacters);
                 return;
             }
         }
