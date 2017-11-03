@@ -67,7 +67,7 @@
 
             <p>
                 <label for="email2">Confirm email</label>
-                <input id="email2" name="email2" type="email" placeholder="e.g. JohnSmith@gmail.com" required>
+                <input id="email2" name="email2" type="email" placeholder="e.g. JohnSmith@gmail.com" value="<?php getInputValue('email2') ?>" required>
             </p>
 
 
