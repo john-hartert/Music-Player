@@ -69,7 +69,7 @@
 
             <p>
                 <?php echo $account->getError(Constants::$passwordsDoNotMatch); ?>
-                <?php echo $account->getError("Your password can only contain numbers and letters"); ?>
+                <?php echo $account->getError(Constants::$passwordsNotAlphanumeric); ?>
                 <?php echo $account->getError("Your password must be between 5 and 30 characters"); ?>
                 <label for="password">Password</label>
                 <input id="password" name="password" type="password" placeholder="Your password" required>
