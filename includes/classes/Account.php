@@ -48,7 +48,11 @@
                 return;
             }
 
-            //TO DO: check if username exists
+            $checkUsernameQuery = mysqli_query($this->con, "SELECT username FROM users WHERE username='$un'");
+            if(mysqli_num_rows($checkUsernameQuery) != 0) {
+                array_push($this->errorArray, Constants::$usernameTaken);
+                return;
+            }
         }
         // Function that isn't global.
         private function validateFirstname($fn) {
