@@ -36,6 +36,8 @@
             $encryptedPw = md5($pw);
             $profilePic = "assets/images/profile-pics/jh3.jpg";
             $date = date("Y-m-d");
+
+            $result = mysqli_query($this->con, "INSERT INTO users VALUES ('', '$un', '$fn', '$ln', '$em', '$encryptedPw', '$date', '$profilePic')");
         }
 
         private function validateUsername($un) {
