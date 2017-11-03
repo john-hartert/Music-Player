@@ -54,7 +54,7 @@
 
             <p>
                 <?php echo $account->getError(Constants::$emailsDoNotMatch); ?>
-                <?php echo $account->getError("Your email is invalid"); ?>
+                <?php echo $account->getError(Constants::$emailInvalid); ?>
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email" placeholder="e.g. JohnSmith@gmail.com" required>
             </p>
