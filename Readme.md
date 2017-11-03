@@ -4,3 +4,4 @@
 - Apache Web Server
 - PHP
 - HTML5
+- phpMyAdmin
