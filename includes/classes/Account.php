@@ -42,7 +42,7 @@
         // Function that isn't global.
         private function validateFirstname($fn) {
             if(strlen($fn) > 25 || strlen($fn) < 2) {
-                array_push($this->errorArray, "Your first name must be between 2 and 25 characters");
+                array_push($this->errorArray, Constants::$firstNameCharacters);
                 return;
             }
         }
