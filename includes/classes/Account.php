@@ -8,6 +8,10 @@
             $this->errorArray = array();
         }
 
+        public function login($un, $pw) {
+            $pw = md5($pw);
+        }
+
         public function register($un, $fn, $ln, $em, $em2, $pw, $pw2) {
             $this->validateUsername($un);
             $this->validateFirstname($fn);
