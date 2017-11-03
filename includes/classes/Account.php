@@ -34,6 +34,7 @@
 
         private function inserUserDetails($un, $fn, $ln, $em, $pw) {
             $encryptedPw = md5($pw);
+            $profilePic = "assets/images/profile-pics/jh3.jpg";
         }
 
         private function validateUsername($un) {
