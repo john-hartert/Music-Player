@@ -56,7 +56,7 @@
             
         private function validateEmails($em, $em2) {
             if($em != $em2) {
-                array_push($this->errorArray, "Your emails don't match");
+                array_push($this->errorArray, Constants::$emailsDoNotMatch);
                 return;
             }
 
