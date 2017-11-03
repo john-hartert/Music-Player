@@ -47,7 +47,7 @@
             </p>
 
             <p>
-                <?php echo $account->getError("Your last name must be between 2 and 25 characters"); ?>
+                <?php echo $account->getError(Constants::$lastNameCharacters); ?>
                 <label for="lastName">Last name</label>
                 <input id="lastName" name="lastName" type="text" placeholder="e.g. Smith" required>
             </p>
