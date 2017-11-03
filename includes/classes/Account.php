@@ -82,7 +82,7 @@
 			}
 
 			if(strlen($pw) > 30 || strlen($pw) < 5) {
-				array_push($this->errorArray, "Your password must be between 5 and 30 characters");
+				array_push($this->errorArray, Constants::$passwordCharacters);
 				return;
 			}
 
