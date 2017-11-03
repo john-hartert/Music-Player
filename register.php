@@ -44,12 +44,12 @@
             <p>
                 <?php echo $account->getError(Constants::$usernameCharacters); ?>
                 <label for="username">Username</label>
-                <input id="username" name="username" type="text" placeholder="e.g. John Smith" value="<?php getInputValue ?>" required>
+                <input id="username" name="username" type="text" placeholder="e.g. John Smith" value="<?php getInputValue('username') ?>" required>
             </p>
             <p>
                 <?php echo $account->getError(Constants::$firstNameCharacters); ?>
                 <label for="firstName">First name</label>
-                <input id="firstName" name="firstName" type="text" placeholder="e.g. John" required>
+                <input id="firstName" name="firstName" type="text" placeholder="e.g. John" value="<?php getInputValue('firstName') ?>" required>
             </p>
 
             <p>
