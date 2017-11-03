@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+<?php
+include("includes/config.php");
+
+//session_destroy(); MANUEL LOGOUT
+
+if(isset($_SESSION['userLoggedIn'])) {
+	$userLoggedin = $_SESSION['userLoggedIn'];
+}
+else {
+	header("Location: register.php");
+}
+
+?>
+
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
