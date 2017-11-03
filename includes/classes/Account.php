@@ -18,7 +18,7 @@
 
             if(empty($this->errorArray) == true) {
                 //Insert into db
-                return true;
+                return inserUserDetails($un, $fn, $ln, $em, $pw);
             }
             else {
                 return false;
@@ -30,6 +30,10 @@
                 $error = "";
             }
             return "<span class='errorMessage'>$error</span>";
+        }
+
+        private function inserUserDetails($un, $fn, $ln, $em, $pw) {
+            $encryptedPw = md5($pw);
         }
 
         private function validateUsername($un) {
