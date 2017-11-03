@@ -18,7 +18,7 @@
 
             if(empty($this->errorArray) == true) {
                 //Insert into db
-                return inserUserDetails($un, $fn, $ln, $em, $pw);
+                return $this->insertUserDetails($un, $fn, $ln, $em, $pw);
             }
             else {
                 return false;
@@ -32,7 +32,7 @@
             return "<span class='errorMessage'>$error</span>";
         }
 
-        private function inserUserDetails($un, $fn, $ln, $em, $pw) {
+        private function insertUserDetails($un, $fn, $ln, $em, $pw) {
             $encryptedPw = md5($pw);
             $profilePic = "assets/images/profile-pics/jh3.jpg";
             $date = date("Y-m-d");
