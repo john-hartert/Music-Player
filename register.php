@@ -33,6 +33,14 @@
     <script src="assets/js/register.js"></script>
 </head>
 <body>
+
+    <script>         
+        $(document).ready(function() {
+            $("#loginForm").hide();
+            $("#registerForm").show();
+        });
+    </script>
+
     <div id="background">
         <div id="loginContainer">
 
