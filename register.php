@@ -36,8 +36,8 @@
 
     <script>         
         $(document).ready(function() {
-            $("#loginForm").hide();
-            $("#registerForm").show();
+            $("#loginForm").show();
+            $("#registerForm").hide();
         });
     </script>
 
