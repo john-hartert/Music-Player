@@ -26,6 +26,11 @@ else {
 		<div id="nowPlayingBar">
 			
 			<div id="nowPlayingLeft">
+				<div class="content">
+					<span class="albumLink">
+						<img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300" class="albumArtwork">
+					</span>
+				</div>
 			</div>
 
 			<div id="nowPlayingCenter">
@@ -63,6 +68,15 @@ else {
 						<button class="controlButton repeat" title="Repeat button">
 							<img src="assets/images/icons/repeat.png" alt="Repeat">
 						</button>
+					</div>
+
+					<div class="playbackBar">
+						<span class="progressTime current">0.00</span>
+						<div class="progressBar">
+							<div class="progressBarBg">
+								<div class="progress"></div>
+						</div>
+						<span class="progressTime remaining">0.00</span>
 					</div>
 
 
