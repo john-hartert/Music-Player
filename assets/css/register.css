@@ -112,3 +112,14 @@ html, body {
     padding: 45px;
     display: table-cell;
 }
+
+#loginText h1 {
+    color: #07d159;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+
+#loginText h2 {
+    margin: 35px 0;
+}
