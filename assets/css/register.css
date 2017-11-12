@@ -123,3 +123,13 @@ html, body {
 #loginText h2 {
     margin: 35px 0;
 }
+
+#loginText ul {
+    padding: 0;
+}
+
+#loginText li {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 10px;
+}
