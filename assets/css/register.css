@@ -107,3 +107,8 @@ html, body {
 #loginForm {
     display: none;
 }
+
+#loginText {
+    padding: 45px;
+    display: table-cell;
+}
