@@ -47,6 +47,10 @@ else {
 						<button class="controlButton play" title="Play button">
 							<img src="assets/images/icons/play.png" alt="Play">
 						</button>
+
+						<button class="controlButton pause" title="Pause button" style="display: none";>
+							<img src="assets/images/icons/pause.png" alt="Pause">
+						</button>
 					
 
 					
