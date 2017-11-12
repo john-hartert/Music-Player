@@ -38,16 +38,16 @@
     if(isset($_POST['registerButton'])) {
         echo '<script>         
         $(document).ready(function() {
-            $("#loginForm").show();
-            $("#registerForm").hide();
+            $("#loginForm").hide();
+            $("#registerForm").show();
         });
     </script>';
     }
     else {
         echo '<script>         
         $(document).ready(function() {
-            $("#loginForm").hide();
-            $("#registerForm").show();
+            $("#loginForm").show();
+            $("#registerForm").hide();
         });
     </script>';
     }
