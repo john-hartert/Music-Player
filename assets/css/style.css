@@ -35,6 +35,7 @@ html, body {
 
 #nowPlayingBar .content {
     width: 100%;
+    height: 57px;
 }
 
 .playerControls .buttons {
