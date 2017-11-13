@@ -3,6 +3,12 @@ html, body {
     padding: 0;
     margin: 0;
     height: 100%;
+    
+}
+
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: white;
 }
 
 #nowPlayingBarContainer {
