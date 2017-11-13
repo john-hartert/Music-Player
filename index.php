@@ -30,6 +30,19 @@ else {
 					<span class="albumLink">
 						<img src="https://lh3.googleusercontent.com/dB3Dvgf3VIglusoGJAfpNUAANhTXW8K9mvIsiIPkhJUAbAKGKJcEMPTf0mkSexzLM5o=w300" class="albumArtwork">
 					</span>
+
+					<div class="trackInfo">
+						
+						<span class="trackName">
+							<span>First</span>
+						</span>
+
+						<span class="artistName">
+							<span>Johnnyboy</span>
+						</span>
+
+					</div>
+
 				</div>
 			</div>
 
