@@ -32,6 +32,11 @@ html, body {
     min-width: 180px;
 }
 
+#nowPlayingRight {
+    position: relative;
+    margin-top: 16px;
+}
+
 #nowPlayingCenter {
     width: 40%;
     max-width: 700px;
@@ -116,7 +121,7 @@ html, body {
     background-size: cover;
 }
 
-.trackInfo {
+#nowPlayingLeft .trackInfo {
     display: table;
 }
 
@@ -126,7 +131,17 @@ html, body {
     width: 100%;
 }
 
-#nowPlayingLeft .trackinfo .artistName span {
-    font-size: 12px;
-    color: #A0A0A0;
+#nowPlayingLeft .trackInfo .artistName span {
+	font-size: 12px;
+    color: #a0a0a0;
+}
+
+.volumeBar {
+	width: 180px;
+    position: absolute;
+    right: 0;
+}
+
+.volumeBar .progressBar {
+	width: 125px;
 }
