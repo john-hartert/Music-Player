@@ -23,7 +23,9 @@ else {
 
 	<div id="mainContainer">
 
-		
+		<div id="topContainer">
+			
+		</div>
 		
 		<div id="nowPlayingBarContainer">
 
